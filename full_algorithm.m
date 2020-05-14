@@ -3,12 +3,13 @@ load('fallecidospcrccaaparototal.mat')  % carga de datos X del ejemplo
 K=3;                       % número de cluster
 m=2;                       % parámetro de fcm, 2 es el defecto
 MaxIteraciones=100;        % número de iteraciones
-file = fopen('output_full_algorithm.txt','w');
+file = fopen('fallecidos.txt','w');
+X = fallecidospcrccaaparototal;
 
 for n=3:size(fallecidospcrccaaparototal,2)
-    cac = 2; % Columna a comparar
+    cac = 1; % Columna a comparar
     % Datos para los que se va a hacer fuzzy c means
-    X=cat(2,fallecidospcrccaaparototal(:,cac),fallecidospcrccaaparototal(:,n));
+    %X=cat(2,fallecidospcrccaaparototal(:,cac),fallecidospcrccaaparototal(:,n));
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % Configuración de fuzzy c means
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -77,12 +78,18 @@ for n=3:size(fallecidospcrccaaparototal,2)
     pproducto = anova1(X(:,cac),cidx); % bucle análisis de varianza por producto
     fprintf(file, '\n\nanova -> %s p=% d\n', variables{n}, pproducto);
     if pproducto<0.05 % comparación de valor de probabilidad para determinar la varianza
-        [p12,h12]= ranksum(GRUPO1(:,cac),GRUPO2(:,cac)); % analisis de la varianza entre grupos por columna
+        [p12,h12]= ranksum(GRUPO1(:,cac),GRUPO2(:,n)); % analisis de la varianza entre grupos por columna
         fprintf(file, 'ranksum -> GRUPO 1-2     p = %d | h =% d\n', p12, h12);
-        [p13,h13]= ranksum(GRUPO1(:,cac),GRUPO3(:,cac));
+        [p13,h13]= ranksum(GRUPO1(:,cac),GRUPO3(:,n));
         fprintf(file, 'ranksum -> GRUPO 1-3     p = %d | h =% d\n', p13, h13);
-        [p23,h23]= ranksum(GRUPO2(:,cac),GRUPO3(:,cac));
+        [p23,h23]= ranksum(GRUPO2(:,cac),GRUPO3(:,n));
         fprintf(file, 'ranksum -> GRUPO 2-3     p = %d | h =% d\n', p23, h23);
+        [p21,h21]= ranksum(GRUPO2(:,cac),GRUPO1(:,n));
+        fprintf(file, 'ranksum -> GRUPO 2-1     p = %d | h =% d\n', p21, h21);
+        [p31,h31]= ranksum(GRUPO3(:,cac),GRUPO1(:,n));
+        fprintf(file, 'ranksum -> GRUPO 3-1     p = %d | h =% d\n', p31, h31);
+        [p32,h32]= ranksum(GRUPO3(:,cac),GRUPO2(:,n));
+        fprintf(file, 'ranksum -> GRUPO 3-2     p = %d | h =% d\n', p32, h32);
     end
 end
 fclose(file);
