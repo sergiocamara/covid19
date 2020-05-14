@@ -44,14 +44,14 @@ ylabel('BIC(K)','fontsize',18) % etiquetado del eje-y
 
 
 %% Representación de individuos
-plot(fallecidospcrccaaparototal(cidx==1,1),fallecidospcrccaaparototal(cidx==1,2),'rs','MarkerSize',6,...
+plot(X(cidx==1,1),X(cidx==1,2),'rs','MarkerSize',6,...
                   'MarkerEdgeColor','r', ...
                   'MarkerFaceColor','r');
 hold on
-plot(fallecidospcrccaaparototal(cidx==2,1),fallecidospcrccaaparototal(cidx==2,2),'bs',...
+plot(X(cidx==2,1),X(cidx==2,2),'bs',...
  'MarkerSize',6,'MarkerEdgeColor','b', 'MarkerFaceColor','b');
 
-plot(fallecidospcrccaaparototal(cidx==3,1),fallecidospcrccaaparototal(cidx==3,2),'gs',...
+plot(X(cidx==3,1),X(cidx==3,2),'gs',...
  'MarkerSize',6,'MarkerEdgeColor','g', 'MarkerFaceColor','g');
 
 
@@ -59,7 +59,7 @@ xlabel('x_1','fontsize',18),ylabel('x_2','fontsize',18)
 legend('Grupo 1','Grupo 2','Grupo 3'),axis('square'), box on
 title('Algoritmo Fuzzy c-means','fontsize',18)
 % Escritura del nivel de pertenencia de cada individuo
-for i=1:size(fallecidospcrccaaparototal,1)%    text(Wholesalecustomersdata2(i,1),Wholesalecustomersdata2(i,2),num2str(grado_pertenecia(i)),'FontSize',16);
+for i=1:size(X,1)%    text(Wholesalecustomersdata2(i,1),Wholesalecustomersdata2(i,2),num2str(grado_pertenecia(i)),'FontSize',16);
 end
 %print(1,'-depsc','resul_fcm')   % genera gráfico .eps en fichero   
 

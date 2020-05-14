@@ -8,9 +8,9 @@ close all, clear, clc   % cerrrar  ventanas gráficas
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Carga   d e   d a t o s 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-load('confirmados.mat')
+load('fallecidospcrccaaparototal.mat')
 K=3;    % número de cluster optimizado
-X = confirmados;
+X = fallecidospcrccaaparototal;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Detección de outliers

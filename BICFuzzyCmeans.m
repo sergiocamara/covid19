@@ -8,9 +8,9 @@ close all, clear, clc   % cerrrar  ventanas gráficas
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Carga   d e   d a t o s 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-load('confirmados.mat')
+load('fallecidospcrccaaparototal.mat')
 Kmax=20;    % número máximo de cluster a analizar
-X = confirmados;
+X = fallecidospcrccaaparototal;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % C á l c u l o   d e l   B I C
@@ -22,7 +22,7 @@ for K=2:Kmax
     Tolerancia= 1e-5;          % tolerancia en el criterio de para
     Visualizacion=0;           % 0/1
     opciones=[m,MaxIteraciones,Visualizacion];
-    [center,U,obj_fcn] = fcm(confirmados, K,opciones);
+    [center,U,obj_fcn] = fcm(X, K,opciones);
     %%%%%%%
     % p a r á m e t r o s   d e   s a l i d a              
     % center    centroides de los grupos
