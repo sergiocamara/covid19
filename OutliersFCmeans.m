@@ -10,7 +10,7 @@ close all, clear, clc   % cerrrar  ventanas gráficas
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 load('fallecidospcrccaaparototal.mat')
 K=3;    % número de cluster optimizado
-X = fallecidospcrccaaparototal;
+X = cat(2,fallecidospcrccaaparototal(:,1),fallecidospcrccaaparototal(:,3));
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Detección de outliers
@@ -71,5 +71,6 @@ for i=1:N_outliers
     indices=indices(indices~=outliers(i)); % elimina el outlier(i)
 end
 X=X(indices,:);        % datos sin outliers
+save('fallecidospcrccaaparototal_sinOutliers', 'X');
 
 

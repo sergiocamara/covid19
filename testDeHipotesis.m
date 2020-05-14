@@ -34,7 +34,8 @@ GRUPO3=(X(cidx==3,:));
 %GRUPO5=(X(cidx==5,:));
 
 rng('default')
-variables = {'Fallecidos','Contagiados','Paro Total','Paro Hombre < 25','Paro Hombre 25-45','Paro Hombre > 45','Paro Mujer < 25','Paro Mujer 25-45','Paro Mujer > 45','Paro Sin empleo anterior','Paro agricultura','Paro construcción', 'Paro Industria','Paro Servicios'};
+%variables = {'Fallecidos','Contagiados','Paro Total','Paro Hombre < 25','Paro Hombre 25-45','Paro Hombre > 45','Paro Mujer < 25','Paro Mujer 25-45','Paro Mujer > 45','Paro Sin empleo anterior','Paro agricultura','Paro construcción', 'Paro Industria','Paro Servicios'};
+variables = {'Fallecidos','Paro Total'};
 for i=1: size(X,2)
     pproducto = anova1(X(:,i),cidx); % blúce análisis de varianza por producto
     texto = sprintf('\n\nanova -> %s p=% d',variables{i},pproducto);

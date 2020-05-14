@@ -1,0 +1,72 @@
+Aragón : 1,Principado de Asturias : 1,Cantabria : 1,Ceuta : 1,Castilla y León : 3,Canarias : 3,Cataluña : 2,Extremadura : 3,Galicia : 3,Islas Baleares : 1,Región de Murci : 3,Comunidad de Madrid : 2,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 3,La Rioja : 1,Comunidad Valenciana : 2,Aragón : 1,Principado de Asturias : 1,Cantabria : 1,Ceuta : 1,Castilla y León : 3,Castilla-La Mancha : 3,Canarias : 3,Extremadura : 3,Islas Baleares : 1,Comunidad de Madrid : 2,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 3,La Rioja : 1,Comunidad Valenciana : 2,
+
+anova -> Paro Total p= 2.126825e-17
+ranksum -> GRUPO 1-2     p = 1.107833e-03 | h = 1
+ranksum -> GRUPO 1-3     p = 1.575864e-05 | h = 1
+ranksum -> GRUPO 2-3     p = 4.578755e-04 | h = 1
+Andalucía : 2,Aragón : 1,Principado de Asturias : 1,Cantabria : 1,Ceuta : 1,Castilla y León : 3,Castilla-La Mancha : 3,Canarias : 3,Cataluña : 2,Extremadura : 1,Galicia : 1,Islas Baleares : 1,Región de Murci : 1,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 3,La Rioja : 1,Comunidad Valenciana : 3,Aragón : 1,Principado de Asturias : 1,Cantabria : 1,Ceuta : 1,Canarias : 3,Cataluña : 2,Extremadura : 1,Galicia : 3,Islas Baleares : 1,Región de Murci : 1,Comunidad de Madrid : 2,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 3,La Rioja : 1,
+
+anova -> Paro Hombre < 25 p= 1.296589e-08
+ranksum -> GRUPO 1-2     p = 2.096679e-03 | h = 1
+ranksum -> GRUPO 1-3     p = 2.777351e-04 | h = 1
+ranksum -> GRUPO 2-3     p = 1.616162e-02 | h = 1
+Aragón : 3,Principado de Asturias : 3,Cantabria : 3,Ceuta : 3,Castilla y León : 2,Castilla-La Mancha : 2,Canarias : 2,Cataluña : 1,Extremadura : 3,Galicia : 2,Islas Baleares : 3,Región de Murci : 3,Comunidad de Madrid : 1,Melilla : 3,Comunidad Foral de Navarra : 3,País Vasco : 2,La Rioja : 3,Comunidad Valenciana : 1,Aragón : 3,Principado de Asturias : 3,Cantabria : 3,Ceuta : 3,Castilla y León : 2,Castilla-La Mancha : 2,Canarias : 2,Cataluña : 1,Extremadura : 3,Galicia : 2,Islas Baleares : 3,Región de Murci : 3,Comunidad de Madrid : 1,Melilla : 3,Comunidad Foral de Navarra : 3,País Vasco : 2,La Rioja : 3,Comunidad Valenciana : 1,
+
+anova -> Paro Hombre 25-45 p= 3.084808e-18
+ranksum -> GRUPO 1-2     p = 2.497502e-04 | h = 1
+ranksum -> GRUPO 1-3     p = 2.934045e-04 | h = 1
+ranksum -> GRUPO 2-3     p = 1.200944e-05 | h = 1
+Aragón : 1,Cantabria : 1,Ceuta : 1,Castilla y León : 2,Canarias : 2,Cataluña : 3,Extremadura : 1,Galicia : 2,Islas Baleares : 1,Región de Murci : 1,Comunidad de Madrid : 3,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 2,La Rioja : 1,Comunidad Valenciana : 3,Principado de Asturias : 1,Cantabria : 1,Ceuta : 1,Castilla y León : 2,Castilla-La Mancha : 2,Canarias : 2,Extremadura : 2,Región de Murci : 1,Comunidad de Madrid : 3,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 2,La Rioja : 1,
+
+anova -> Paro Hombre > 45 p= 7.841243e-14
+ranksum -> GRUPO 1-2     p = 5.168134e-05 | h = 1
+ranksum -> GRUPO 1-3     p = 2.915874e-03 | h = 1
+ranksum -> GRUPO 2-3     p = 2.797203e-03 | h = 1
+Andalucía : 3,Aragón : 2,Principado de Asturias : 2,Cantabria : 2,Ceuta : 2,Castilla y León : 1,Castilla-La Mancha : 1,Canarias : 2,Cataluña : 3,Extremadura : 2,Galicia : 2,Islas Baleares : 2,Región de Murci : 2,Melilla : 2,País Vasco : 1,La Rioja : 2,Comunidad Valenciana : 1,Aragón : 2,Principado de Asturias : 2,Cantabria : 2,Ceuta : 2,Canarias : 1,Cataluña : 3,Extremadura : 2,Galicia : 1,Islas Baleares : 2,Región de Murci : 2,Comunidad Foral de Navarra : 2,País Vasco : 1,La Rioja : 2,
+
+anova -> Paro Mujer < 25 p= 3.285522e-07
+ranksum -> GRUPO 1-2     p = 3.075733e-03 | h = 1
+ranksum -> GRUPO 1-3     p = 3.333333e-02 | h = 1
+ranksum -> GRUPO 2-3     p = 7.081880e-03 | h = 1
+Aragón : 3,Principado de Asturias : 3,Cantabria : 3,Ceuta : 3,Castilla y León : 2,Castilla-La Mancha : 2,Canarias : 2,Cataluña : 1,Extremadura : 2,Galicia : 2,Islas Baleares : 3,Región de Murci : 2,Comunidad de Madrid : 1,Melilla : 3,Comunidad Foral de Navarra : 3,País Vasco : 2,La Rioja : 3,Comunidad Valenciana : 1,Aragón : 3,Principado de Asturias : 3,Cantabria : 3,Ceuta : 3,Castilla y León : 2,Castilla-La Mancha : 2,Canarias : 2,Cataluña : 1,Extremadura : 2,Galicia : 2,Islas Baleares : 3,Región de Murci : 2,Comunidad de Madrid : 1,Melilla : 3,Comunidad Foral de Navarra : 3,País Vasco : 2,La Rioja : 3,Comunidad Valenciana : 1,
+
+anova -> Paro Mujer 25-45 p= 3.859099e-20
+ranksum -> GRUPO 1-2     p = 6.196546e-04 | h = 1
+ranksum -> GRUPO 1-3     p = 4.622192e-04 | h = 1
+ranksum -> GRUPO 2-3     p = 3.567369e-06 | h = 1
+Aragón : 2,Principado de Asturias : 2,Cantabria : 1,Ceuta : 1,Castilla y León : 3,Castilla-La Mancha : 3,Canarias : 3,Extremadura : 2,Galicia : 3,Islas Baleares : 1,Región de Murci : 2,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 2,La Rioja : 1,Aragón : 2,Principado de Asturias : 2,Cantabria : 1,Ceuta : 1,Castilla y León : 3,Castilla-La Mancha : 3,Canarias : 3,Extremadura : 2,Galicia : 3,Islas Baleares : 1,Región de Murci : 2,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 2,La Rioja : 1,
+
+anova -> Paro Mujer > 45 p= 4.626043e-15
+ranksum -> GRUPO 1-2     p = 8.733927e-05 | h = 1
+ranksum -> GRUPO 1-3     p = 2.476243e-04 | h = 1
+ranksum -> GRUPO 2-3     p = 4.570593e-05 | h = 1
+Aragón : 2,Principado de Asturias : 2,Cantabria : 2,Ceuta : 2,Castilla y León : 3,Castilla-La Mancha : 3,Canarias : 3,Cataluña : 1,Extremadura : 2,Galicia : 3,Islas Baleares : 2,Región de Murci : 2,Melilla : 2,Comunidad Foral de Navarra : 2,País Vasco : 3,La Rioja : 2,Comunidad Valenciana : 3,Aragón : 2,Principado de Asturias : 2,Cantabria : 2,Ceuta : 2,Castilla y León : 3,Castilla-La Mancha : 3,Canarias : 3,Extremadura : 2,Galicia : 3,Región de Murci : 2,Comunidad de Madrid : 1,Melilla : 2,Comunidad Foral de Navarra : 2,País Vasco : 3,La Rioja : 2,
+
+anova -> Paro Sin empleo anterior p= 2.717333e-13
+ranksum -> GRUPO 1-2     p = 2.666025e-02 | h = 1
+ranksum -> GRUPO 1-3     p = 2.564103e-02 | h = 1
+ranksum -> GRUPO 2-3     p = 7.612829e-06 | h = 1
+Aragón : 2,Principado de Asturias : 2,Cantabria : 2,Ceuta : 2,Castilla y León : 1,Castilla-La Mancha : 1,Canarias : 2,Cataluña : 3,Extremadura : 1,Galicia : 2,Islas Baleares : 2,Región de Murci : 2,Melilla : 2,Comunidad Foral de Navarra : 2,País Vasco : 2,La Rioja : 2,Comunidad Valenciana : 1,Aragón : 2,Principado de Asturias : 2,Cantabria : 2,Ceuta : 2,Castilla y León : 1,Castilla-La Mancha : 1,Canarias : 2,Cataluña : 3,Extremadura : 1,Galicia : 1,Islas Baleares : 2,Región de Murci : 2,Comunidad de Madrid : 3,Melilla : 2,País Vasco : 2,La Rioja : 2,Comunidad Valenciana : 1,
+
+anova -> Paro agricultura p= 2.256946e-09
+ranksum -> GRUPO 1-2     p = 2.673592e-05 | h = 1
+ranksum -> GRUPO 1-3     p = 1.000000e-01 | h = 0
+ranksum -> GRUPO 2-3     p = 3.297257e-02 | h = 1
+Aragón : 2,Principado de Asturias : 2,Cantabria : 2,Ceuta : 2,Castilla y León : 1,Castilla-La Mancha : 1,Canarias : 1,Cataluña : 3,Extremadura : 1,Galicia : 1,Islas Baleares : 2,Región de Murci : 2,Melilla : 2,Comunidad Foral de Navarra : 2,País Vasco : 1,La Rioja : 2,Comunidad Valenciana : 3,Aragón : 2,Principado de Asturias : 2,Cantabria : 2,Ceuta : 2,Castilla y León : 1,Castilla-La Mancha : 1,Canarias : 3,Extremadura : 1,Galicia : 1,Islas Baleares : 2,Región de Murci : 2,Comunidad de Madrid : 3,Melilla : 2,Comunidad Foral de Navarra : 2,País Vasco : 1,La Rioja : 2,Comunidad Valenciana : 3,
+
+anova -> Paro construcción p= 3.746402e-15
+ranksum -> GRUPO 1-2     p = 1.767476e-05 | h = 1
+ranksum -> GRUPO 1-3     p = 4.578755e-04 | h = 1
+ranksum -> GRUPO 2-3     p = 9.104364e-04 | h = 1
+Andalucía : 3,Aragón : 1,Principado de Asturias : 1,Cantabria : 1,Ceuta : 1,Castilla y León : 2,Castilla-La Mancha : 2,Canarias : 1,Extremadura : 1,Galicia : 2,Islas Baleares : 1,Región de Murci : 1,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 2,La Rioja : 1,Comunidad Valenciana : 3,Andalucía : 3,Aragón : 1,Principado de Asturias : 1,Cantabria : 1,Ceuta : 1,Castilla y León : 2,Castilla-La Mancha : 2,Canarias : 1,Extremadura : 1,Galicia : 2,Islas Baleares : 1,Región de Murci : 1,Comunidad de Madrid : 2,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 2,La Rioja : 1,Comunidad Valenciana : 3,
+
+anova -> Paro Industria p= 6.114864e-23
+ranksum -> GRUPO 1-2     p = 1.813777e-05 | h = 1
+ranksum -> GRUPO 1-3     p = 1.992081e-03 | h = 1
+ranksum -> GRUPO 2-3     p = 2.797203e-03 | h = 1
+Aragón : 1,Cantabria : 1,Ceuta : 1,Castilla y León : 3,Cataluña : 2,Extremadura : 3,Galicia : 3,Islas Baleares : 1,Región de Murci : 3,Comunidad de Madrid : 2,Melilla : 1,Comunidad Foral de Navarra : 1,País Vasco : 3,La Rioja : 1,Comunidad Valenciana : 2,Andalucía : 2,Principado de Asturias : 1,Cantabria : 1,Ceuta : 1,Castilla y León : 3,Castilla-La Mancha : 3,Cataluña : 2,Extremadura : 3,Comunidad de Madrid : 2,Comunidad Foral de Navarra : 1,País Vasco : 3,La Rioja : 1,Comunidad Valenciana : 2,
+
+anova -> Paro Servicios p= 8.248840e-10
+ranksum -> GRUPO 1-2     p = 3.969199e-05 | h = 1
+ranksum -> GRUPO 1-3     p = 1.434867e-04 | h = 1
+ranksum -> GRUPO 2-3     p = 1.748252e-04 | h = 1

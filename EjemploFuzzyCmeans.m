@@ -6,12 +6,12 @@ load('fallecidospcrccaaparototal.mat')  % carga de datos X del ejemplo
 K=3;                       % número de cluster
 m=2;                       % parámetro de fcm, 2 es el defecto
 MaxIteraciones=100; 
-X=fallecidospcrccaaparototal;
+X=cat(2,fallecidospcrccaaparototal(:,1),fallecidospcrccaaparototal(:,3));
 % número de iteraciones
 Tolerancia= 1e-5;          % tolerancia en el criterio de para
 Visualizacion=0;           % 0/1
 opciones=[m,MaxIteraciones,Visualizacion];
-[center,U,obj_fcn] = fcm(fallecidospcrccaaparototal, K,opciones);
+[center,U,obj_fcn] = fcm(X, K,opciones);
 %%%%%%%
 % p a r á m e t r o s   d e   s a l i d a              
 % center    centroides de los grupos
