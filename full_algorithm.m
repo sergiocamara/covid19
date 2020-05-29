@@ -1,4 +1,4 @@
-ccaa = readtable('fallecidos_pcr_ccaa_paro_total.csv').CCAA;
+ccaa = readtable('fallecidospcrccaaparototal.csv').CCAA;
 load('fallecidospcrccaaparototal.mat')  % carga de datos X del ejemplo
 K=3;                       % número de cluster
 m=2;                       % parámetro de fcm, 2 es el defecto
